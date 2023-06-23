@@ -4,6 +4,7 @@ Scooter / Bicycle / Boat Rental with multiple location configuration
 I was looking for something similar to this but just couldnt find anything 
 All this is a free basic and open source bike / scooter / boat rental script that allows for multiple locations and to return the bike/scooter/boats!  
 
+I couldnt find the scooter model creator if any knows please add a PR so I can credit them!
 
 ### Dependencies:
 [qb-menu] https://github.com/qbcore-framework/qb-menu
