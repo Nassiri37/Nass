@@ -7,6 +7,7 @@ All this is a free basic and open source bike / scooter / boat rental script tha
 
 ### Dependencies:
 [qb-menu] https://github.com/qbcore-framework/qb-menu
+
 [qb-target] https://github.com/qbcore-framework/qb-target
 
 
