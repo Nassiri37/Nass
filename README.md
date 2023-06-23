@@ -1,4 +1,4 @@
-# Nass
+# nass-rentals
 Scooter / Bicycle / Boat Rental with multiple location configuration
 
 I was looking for something similar to this but just couldnt find anything 
