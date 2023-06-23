@@ -28,12 +28,11 @@ Download ZIP
 
  Go to qb-inventory -> html -> js -> app.js and search for "harness" add the following code
 
-```lua
 
+```lua
           } else if (itemData.name == "rentalpapers") {
             $(".item-info-title").html('<p>' + itemData.label + '</p>')
             $(".item-info-description").html('<p><strong>Plate: </strong><span>'+ itemData.info.label + '</span></p>');
-
 ```
 
 Put the script in your resource directory 
