@@ -14,8 +14,11 @@ All this is a free basic and open source bike / scooter / boat rental script tha
 
 ## Installation
 Download ZIP
+
 Put the script in your resource directory 
+
 ensure it in server.cfg
+
 Restart your server! 
 
 
