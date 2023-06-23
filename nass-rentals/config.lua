@@ -1,22 +1,32 @@
 Config = {}
 
+
+--Blips
 Config.BikeBlips = true -- Choose weather or not to show the bike rental blips on the map
 Config.BoatBlips = true -- Choose weather or not to show the boat rental blips on the map
+Config.dBikeBlips = true -- Choose weather or not to show the dirt bike rental blips on the map
+Config.CarBlips = true -- Choose weather or not to show the dirt Bike rental blips on the map
 
-
+--Ped Rental / Ped Spawn
 Config.EnableBikeRental = true  -- Ability to change weather you want to have bike rental peds or not 
 Config.EnableBoatRental = true -- Ability to change weather you want to have boat rental peds or not
+Config.EnabledBikeRental = true -- Ability to change weather you want to have dirt bike rental peds or not
+Config.EnableCarRental = true -- Ability to change weather you want to have vehicle rental peds or not
 
-Config.FuelScript = 'cdn-fuel' -- cdn-fuel , ps-fuel, LegacyFuel - Not necessarily  needed for bikes but is needed for boats to register if you have keys or not
 
-Config.PlateName = "RENTAL" -- You can change to anything of your liking - The bikes / Scooter / Boats does not show a plate this is just for when you return the bike/scooter it can identify if its a rental or not
+Config.FuelScript = 'cdn-fuel' -- cdn-fuel, ps-fuel, LegacyFuel 
+
+Config.PlateName = "RENT" -- You can change to anything of your liking - make sure to keep 6 letters and under so the script can set a random number so no plates are the same 4 is recommended 
 
 Config.BikePed = `ig_maryann`  -- Decide what ped you want to use the bike rental ped 
 Config.BoatPed = `ig_old_man2`  -- Decide what ped you want to use the boat rental ped 
-
+Config.dBikePed = `u_m_y_sbike`  -- Decide what ped you want to use the dirt bike rental ped 
+Config.CarPed = `ig_fbisuit_01`  -- Decide what ped you want to use the vehicle rental ped 
 
 Config.BikeBlipName = "Bike Rentals"
 Config.BoatBlipName = "Boat Rentals"
+Config.dBikeBlipName = "Dirt Bike Rentals"
+Config.CarBlipName = "Vehicle Rentals"
 
 
 
@@ -29,7 +39,6 @@ Config.bikeList = {
     { name = "Endurex Race Bike", model = "tribike2", price = 100 },
     { name = "Tri-Cycles Race Bike", model = "tribike3", price = 100 },
     { name = "Eletric Scooter", model = "scooter", price = 200 },
-	{ name = "havok", model = "havok", price = 200 },
 }
 
 --Where the bike / scooter will spawn / Need to make sure its near where the ped is
@@ -110,6 +119,67 @@ Config.boatSpawn = {
 --Coords for multiple Peds / Blips follow where the ped is
 Config.BoatPedCoords = {
     vector4(-800.75, -1513.54, 1.6, 110.92), -- Shark Street
+--	vector4(0, 0, 0, 0), 
+}
 
-    
+
+
+-------------------DIRT BIKE------------------
+
+
+Config.dBikeList = {
+    { name = "Sanchez", model = "sanchez", price = 1000 },
+
+}
+
+
+--Where the Dirt Bike will spawn / Need to make sure its near where the ped is
+Config.dBikeSpawn = {
+	[1] = { 
+		dBikeSpawn = {
+			coords = vector3(825.38, 2404.6, 54.53), --   
+			heading = 274.42,
+		},
+	},
+}
+
+
+--Coords for multiple Peds / Blips follow where the ped is
+Config.dBikePedCoords = {
+    vector4(822.52, 2404.48, 54.66, 256.07),     
+}
+
+
+
+-------------------CAR------------------
+
+
+Config.CarList = {
+    { name = "Bison", model = "bison", price = 300 },
+    { name = "Futo", model = "Futo", price = 250 },
+    { name = "Coach", model = "coach", price = 400 },
+    { name = "Tour bus", model = "tourbus", price = 600 },
+    { name = "Taco", model = "taco", price = 420 },
+    { name = "Limo", model = "stretch", price = 1250 },
+    { name = "Hearse", model = "romero", price = 1300 },
+    { name = "Clown Car", model = "speedo2", price = 2850 },
+    { name = "Festival Bus", model = "pbus2", price = 4500 },
+
+}
+
+
+--Where the Dirt Bike will spawn / Need to make sure its near where the ped is
+Config.CarSpawn = {
+	[1] = { 
+		CarSpawn = {
+			coords = vector3(660.05, 196.5, 95.02), --   
+			heading = 71.2,
+		},
+	},
+}
+
+
+--Coords for multiple Peds / Blips follow where the ped is
+Config.CarPedCoords = {
+    vector4(657.63, 200.7, 95.3, 115.29),     
 }
