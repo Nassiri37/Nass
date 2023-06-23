@@ -6,7 +6,7 @@ All this is a free basic and open source bike / scooter / boat rental script tha
 
 I couldnt find the scooter model creator if any knows please add a PR so I can credit them!
 
-### Dependencies:
+### Dependencies
 [qb-menu] https://github.com/qbcore-framework/qb-menu
 
 [qb-target] https://github.com/qbcore-framework/qb-target
