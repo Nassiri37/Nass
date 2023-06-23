@@ -23,7 +23,8 @@ I couldnt find the scooter model creator if any knows please add a PR so I can c
 Download ZIP
 
 # Add this to your qb-core/shared/items.lua
-["rentalpapers"]				 = {["name"] = "rentalpapers", 					["label"] = "Rental Papers", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "rentalpapers.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Rental Papers."},
+```lua
+["rentalpapers"]				 = {["name"] = "rentalpapers", 					["label"] = "Rental Papers", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "rentalpapers.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Rental Papers."},```
 
  Go to qb-inventory -> html -> js -> app.js and search for "harness" add the following code
 
