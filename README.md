@@ -33,3 +33,4 @@ idle 0.0 in use 0.0
 
 ## Future plans with this script
 Make ox_lib and ox_target compatible 
+add vehicle configuration
