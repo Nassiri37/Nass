@@ -4,7 +4,8 @@ Scooter / Bicycle / Boat Rental with multiple location configuration
 This is my first ever script so if the code is a bit wonky go easy on me!
 
 I was looking for something similar to this but just couldnt find anything 
-All this is a free basic and open source bike / scooter / boat rental script that allows for multiple locations and to return the bike/scooter/boats!  
+
+This is a free basic and open source bike / scooter / boat rental script that allows for multiple locations and to return the bike/scooter/boats!  
 
 I couldnt find the scooter model creator if any knows please add a PR so I can credit them!
 
