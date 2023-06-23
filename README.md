@@ -25,17 +25,13 @@ Download ZIP
 # Add this to your qb-core/shared/items.lua
 ```lua
 ["rentalpapers"]				 = {["name"] = "rentalpapers", 					["label"] = "Rental Papers", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "rentalpapers.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Rental Papers."},```
+```
 
- # Go to qb-inventory -> html -> js -> app.js and search for "harness" add the following code
-
-
-
-   ```lua
-       } else if (itemData.name == "rentalpapers") {
+```lua
+ } else if (itemData.name == "rentalpapers") {
             $(".item-info-title").html('<p>' + itemData.label + '</p>')
             $(".item-info-description").html('<p><strong>Plate: </strong><span>'+ itemData.info.label + '</span></p>');
 ```
-
 Put the script in your resource directory 
 
 ensure it in server.cfg
