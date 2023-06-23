@@ -26,7 +26,7 @@ Download ZIP
 ```lua
 ["rentalpapers"]				 = {["name"] = "rentalpapers", 					["label"] = "Rental Papers", 			["weight"] = 50, 		["type"] = "item", 		["image"] = "rentalpapers.png", 		["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false, 	["combinable"] = nil, 	["description"] = "Rental Papers."},```
 ```
-
+# Go to qb-inventory -> html -> js -> app.js and search for harness and add the following code
 ```lua
  } else if (itemData.name == "rentalpapers") {
             $(".item-info-title").html('<p>' + itemData.label + '</p>')
